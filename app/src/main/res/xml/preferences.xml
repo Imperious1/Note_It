@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preferences">
+
+        <EditTextPreference
+            android:inputType="numberPassword"
+            android:key="pin_code"
+            android:summary="Set a pincode to lock notes"
+            android:title="Pincode" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/note_layout_names"
+            android:entryValues="@array/note_layout_values"
+            android:key="layout_type"
+            android:title="Notes layout" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/note_sort_order"
+            android:entryValues="@array/note_sort_values"
+            android:key="sort_order"
+            android:title="Sort order" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/note_line_names"
+            android:entryValues="@array/note_line_settings"
+            android:key="note_preview_count"
+            android:title="Note preview lines" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="mini_note"
+            android:summary="Makes notes smaller"
+            android:title="Mini Notes" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="search_trash"
+            android:summary="Search will now search through trash (default OFF)"
+            android:title="Search trash" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notes backup">
+
+        <Preference
+            android:key="note_export"
+            android:summary="Export notes to device storage"
+            android:title="Export notes" />
+        <Preference
+            android:key="note_import"
+            android:summary="Import notes from your device storage"
+            android:title="Import notes" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Extra">
+
+        <Preference
+            android:key="trash_all"
+            android:summary="Permanently deletes all notes (includes folders)"
+            android:title="Trash all" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

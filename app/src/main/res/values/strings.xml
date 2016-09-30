@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_note">Note it!</string>
+    <string name="app_name">Note it!</string>
+    <string-array name="note_line_names">
+        <item>1 line</item>
+        <item>2 lines</item>
+        <item>3 lines</item>
+        <item>4 lines</item>
+        <item>5 lines</item>
+        <item>Limitless</item>
+    </string-array>
+    <string-array name="note_line_settings">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>999</item>
+    </string-array>
+
+    <string-array name="note_layout_names">
+        <item>Single column</item>
+        <item>Multi-column</item>
+        <item>Multi-column Staggered</item>
+    </string-array>
+    <string-array name="note_layout_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="note_sort_order">
+        <item>Newest first (default)</item>
+        <item>Oldest first</item>
+        <item>Alphabetical</item>
+        <item>Reverse alphabetical</item>
+    </string-array>
+    <string-array name="note_sort_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_open_folder">Note it!</string>
+
+</resources>
